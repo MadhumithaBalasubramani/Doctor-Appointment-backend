@@ -1,6 +1,6 @@
 const express=require('express');
 const cors = require('cors');
-const router = require("../serverBackend/Routes/userRoutes")
+const router = require("../serverBackend/Routes/userRoutes.js")
 const routersAdmin=require('../serverBackend/Routes/adminRoutes')
 const routedoc=require('../serverBackend/Routes/doctorRoutes')
 // const routerDoc =require('../serverBackend/Routes/doctorRoutes')
